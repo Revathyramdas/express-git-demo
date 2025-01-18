@@ -9,6 +9,9 @@ app.get('/git-demo',(req,res)=>{
 app.get('/dev',(req,res)=>{
     return res.status(200).json({message:'Created at dev branch'})
 })
+app.get('/git-hub',(req,res)=>{
+    return res.status(200).json({message:'GIT-HUB CHANGES'})
+})
 
 
 app.listen(6000,()=>{
